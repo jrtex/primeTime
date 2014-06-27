@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="MacRoman"?>
+
+<!--
+    Document   : pt.xml
+    Created on : November 24, 2008, 4:55 PM
+    Author     : Dongmei
+    Description:
+        Purpose of the document follows.
+-->
+
+<assembly>
+    <id>pt-bundle</id>
+    <baseDirectory>pt-assembly</baseDirectory>
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+   <fileSets>
+        <fileSet>
+            <directory>src/main/java</directory>
+            <outputDirectory>bundle</outputDirectory>
+            <includes>
+                <include>**</include>
+            </includes>
+            <useDefaultExcludes>true</useDefaultExcludes>
+            <fileMode>0777</fileMode>
+            <directoryMode>0755</directoryMode>
+        </fileSet>
+    </fileSets>
+    <files>
+        <file>
+            <source>target/pt-1.0-SNAPSHOT.jar</source>
+            <outputDirectory>lib</outputDirectory>
+            <destName>pt.jar</destName>
+            <fileMode>0644</fileMode>
+        </file>
+    </files>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>${artifact.groupId}</outputDirectory>
+        </dependencySet>
+    </dependencySets>
+
+<!-- ${basedir}/target/${finalName} -->
+
+
+</assembly>

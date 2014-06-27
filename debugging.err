@@ -1,0 +1,144 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for de.vahrson:pt:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 19, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] primeTime
+[INFO] util
+[INFO] rusa
+[INFO] seq
+[INFO] emboss
+[INFO] io
+[INFO] blast
+[INFO] pt
+[INFO] loop
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building primeTime 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building util 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ util ---
+[WARNING] Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/jordan/Downloads/PrimeTime/primeTime/util/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ util ---
+[WARNING] File encoding has not been set, using platform encoding MacRoman, i.e. build is platform dependent!
+[INFO] Compiling 38 source files to /Users/jordan/Downloads/PrimeTime/primeTime/util/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ util ---
+[WARNING] Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/jordan/Downloads/PrimeTime/primeTime/util/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ util ---
+[WARNING] File encoding has not been set, using platform encoding MacRoman, i.e. build is platform dependent!
+[INFO] Compiling 12 source files to /Users/jordan/Downloads/PrimeTime/primeTime/util/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ util ---
+[INFO] Surefire report directory: /Users/jordan/Downloads/PrimeTime/primeTime/util/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running de.vahrson.util.BeanUtilTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running de.vahrson.util.ChooseOnePermutionIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running de.vahrson.util.CollectionsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running de.vahrson.util.DateUtilsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running de.vahrson.util.DayComparatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running de.vahrson.util.IntRangeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running de.vahrson.util.ListPermutationsIteratorTest
+[A, B, C, D]
+[A, B, C, D]
+[A, B, C, D]
+[A, B, C, D]
+[A, B, C, D]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+[null, null, null, null]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running de.vahrson.util.MathUtilsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running de.vahrson.util.PartitioningTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running de.vahrson.util.RandomOrderIteratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running de.vahrson.util.TabReaderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running de.vahrson.util.UserAgentBeanTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ util ---
+[INFO] Building jar: /Users/jordan/Downloads/PrimeTime/primeTime/util/target/util-1.0-SNAPSHOT.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building rusa 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for de.vahrson:jargs:jar:1.0 is missing, no dependency information available
+[WARNING] The POM for de.vahrson:javax:jar:1.0 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] primeTime ......................................... SUCCESS [  0.002 s]
+[INFO] util .............................................. SUCCESS [  3.135 s]
+[INFO] rusa .............................................. FAILURE [  0.075 s]
+[INFO] seq ............................................... SKIPPED
+[INFO] emboss ............................................ SKIPPED
+[INFO] io ................................................ SKIPPED
+[INFO] blast ............................................. SKIPPED
+[INFO] pt ................................................ SKIPPED
+[INFO] loop .............................................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.356 s
+[INFO] Finished at: 2014-06-24T11:35:50-05:00
+[INFO] Final Memory: 10M/81M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project rusa: Could not resolve dependencies for project de.vahrson:rusa:jar:1.0-SNAPSHOT: The following artifacts could not be resolved: de.vahrson:jargs:jar:1.0, de.vahrson:javax:jar:1.0: Failure to find de.vahrson:jargs:jar:1.0 in http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :rusa
